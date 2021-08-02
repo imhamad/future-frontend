@@ -1,0 +1,290 @@
+.row{
+  margin: 0;
+}
+ @font-face {
+  font-family: "Proxima nova H1";
+    src: url("e-creative_live/fonts/ProximaNova-Regular.ttf")
+  }
+
+/*
+@font-face {
+  font-family: "Proxima nova H2";
+    src: url("E-creative live/All Fonts/ProximaNova-Regular.ttf")
+  }
+
+@font-face {
+  font-family: "Proxima nova H3";
+    src: url("E-creative live/fonts/ProximaNova-Regular.ttf")
+  }
+*/
+
+@font-face {
+  font-family: "Avenir normal";
+    src: url("e-creative_live/fonts/avenir_regular.ttf")
+  }
+
+/*
+@font-face {
+  font-family: "Avenir small";
+    src: url("E-creative live/All Fonts/Avenir Regular.ttf")
+  }
+*/
+
+@font-face {
+  font-family: "Poppins";
+    src: url("e-creative_live/fonts/poppins-regular.ttf")
+  }
+
+
+
+
+
+
+/************************ Start Header Section   ************************/
+
+
+  @media screen and (max-width:568px) {
+  .head-color{
+
+background-image: url(images/Backgrounds/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  
+/*  height: 500px;*/
+  height: 1000px;
+}
+
+
+.head-mt{
+    background-image: url("images/background-mobile.png");
+  background-repeat: no-repeat;
+   justify-content: center;
+  margin-top: 7em;
+/*   margin-left: 9.3%;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+ 
+}
+
+.first-h3{
+  
+  font-family: Avenir normal;
+  font-size: 32px;
+  color: #282D5A;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.header-h1{
+ font-family: Proxima nova H1;
+  font-size: 42px;
+  font-weight: 600;
+ margin-top: 100px;
+/*  line-height: 60px;*/
+  color: #282D5A;
+/*  letter-spacing: .75px;*/
+/*  margin: 100px auto auto auto;*/
+/*
+  margin-left: 93px;
+  max-width: 16em;
+*/
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-first-head{
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+/*  margin-left: 7%;*/
+/*  height: 500px;*/
+}
+.first-66{
+  margin-top: -21px;
+}
+.header-p{
+  font-family: Avenir normal;
+  font-size: 20px;
+  color: #282D5A;
+  width: 57%;
+  line-height: 36px;
+  font-weight: 400;
+}
+  
+  
+  
+}
+
+ /************************** End Header Section    ****************************/
+ /***************************section 2/**********************/
+.section2{
+  margin-top: -130px;
+}
+.mt-box{
+  margin-top:  27em;
+}
+.section2-p1{
+  font-family: Avenir normal;
+  font-size: 18px;
+  color: #282D5A;
+   width: 80%;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+.section2-p2{
+   font-weight: 400;
+  line-height: 30px;
+  margin-top: 12px;
+  font-family: Avenir normal;
+  font-size: 18px;
+  color: #282D5A;
+  width: 78%;
+  color: #5A5C95;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.section2-p3{
+   font-weight: 400;
+  line-height: 30px;
+  margin-top: 12px;
+  font-family: Avenir normal;
+  font-size: 18px;
+  color: #282D5A;
+  width: 76%;
+  color: #5A5C95;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.section2-55{
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 90px;
+  font-family: Poppins;
+  font-size: 60px;
+  color: #7034FF;
+}
+.section2-567{
+   margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 90px;
+  font-family: Poppins;
+  font-size: 60px;
+  color: #FFA41C;
+}
+.section2-11{
+   margin-top: 20px;
+  color: #22E263;
+  font-weight: 600;
+  text-align: center;
+  line-height: 90px;
+  font-family: Poppins;
+  font-size: 60px;
+}
+.cover .overlay {
+/*  position: absolute;*/
+
+  width: 100%;
+  height: 100%;
+  
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 19vmin;
+
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.rect-img{
+  position: absolute;
+  top: -1px;
+}
+.rect-img2{
+  position: absolute;
+  bottom: -5px;
+}
+.rect-img3{
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+}
+
+.rect2-img{
+  position: absolute;
+  bottom: -3px;
+}
+.rect2-img2{
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+}
+.rect2-img3{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.numbers .rect {
+  position: relative;
+  margin-top: 19%;
+  background: white;
+  width: 21rem;
+  height: 17rem;
+  padding-top: 3.5vmin;
+  margin-left: 2rem;
+ box-shadow: 0px 10px 20px rgba(90, 92, 149, 0.15);
+border-radius: 40px;
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h3 {
+  font-size: 48px;
+  margin-top: 15px;
+  font-weight: bold;
+  
+}
+
+.numbers .rect > p {
+  margin-top: 19px;
+   font-size: 14px;
+  color: #5A5C95;
+  
+}
+}
+  
+ /**************************  Section 2 end   ****************************/
+
+
+
+
+
