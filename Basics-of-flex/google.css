@@ -1,0 +1,81 @@
+.google h{
+font-size: 90px;
+  font-weight: 500;
+  margin-top: -34px;
+}
+
+
+/*
+form .ipt::before{
+  content:'';
+  background-image: url(images/icon-search.png);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  z-index: 3333;
+  display: inline;
+  
+  
+}
+*/
+/* Style the submit button */
+
+form.example button {
+  position: absolute;;
+  padding: 10px;
+  color: gray;
+  font-size: 17px;
+  border: none; /* Prevent double borders */
+  cursor: pointer;
+  background: transparent;
+  z-index: 2;
+ 
+}
+
+/* Clear floats */
+form.example::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+.dots-size{
+  width: 20px;
+}
+
+.footer{
+  background: lightgray;
+  margin-top: 10.5em;
+}
+.google-offered{
+  width: 25%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .google-offered{
+  width: 50%;
+}
+  .ipt{
+    min-width: 80%;
+  }      
+  .google h{
+font-size: 70px;
+  margin-top: -34px;
+}
+  .menu{
+    font-size: 12px;
+  }
+  .dots-size{
+    width: 13px;
+  }
+}
+@media only screen and (max-width: 595px) {
+ 
+  .Pak{
+    justify-content: center;
+    text-align: center;
+ margin-left: auto;
+    margin-right: auto;
+  }
+
+}
